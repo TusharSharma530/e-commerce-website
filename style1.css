@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+head ,  body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px;
+}
+.rightBox{
+    display: flex;
+    margin: 12px;
+}
+.left img{
+    width: 32px;
+    height: 23px;
+}
+
+.container{
+    padding: 0 10vw;
+}
+.containerHeader{
+    padding: 0 10vw;
+}
+nav{
+    font-size: 12px;
+    padding-top:14px ;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+.section1{
+    background-color: rgb(247, 249, 249);
+
+}
+section img{
+    width: 80vw;
+    margin: 12px 0;;
+}
+h4{
+    font-size: 2.0em;
+    font-weight: bolder;
+    background-color: rgb(247, 249, 249);
+}
+.itemsimg{
+    width: 10vw;
+    margin: 6px 6px;;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+footer h5{
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+}
+footer p{
+    text-align: left;
+}
+@media (max-width:1250px) {
+    header{
+        height: 122px;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .rightBox{
+        display: flex;
+        margin: 12px;
+    }
+    .containerHeader{
+        padding: 0 2vw;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+  }

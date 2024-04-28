@@ -1,2 +1,2 @@
-# e-commerce-website
-myntra clone
+# Myntra-clone
+
